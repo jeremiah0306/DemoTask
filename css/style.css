@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main_container{
+    width:100%;
+    height:100vh;
+    background-color: whitesmoke;
+    
+}
+.navbar_section{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    background-color: rgb(52, 120, 175);
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    
+}
+.logo{
+    width:40%;
+    
+}
+.logo img{
+    width: 70px;
+    height:40px;
+    align-items: center;
+   
+    
+}
+.nav_links{
+    width:50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.nav_links a{
+    text-decoration: none;
+    color:white;
+    margin: 0 auto;
+   padding:10px;
+  
+
+}
+a:hover{
+    background-color: white;
+    color:#3478af;
+    border-radius: 10px;
+}
+.contact{
+    width:40%;
+    height:400px;
+    background-color: #3478af;
+    margin:0 auto;
+    border-radius: 5px;
+}
+.inp{
+    width: 200px;
+    margin:0 auto;
+    line-height: 30px;
+}
+label{
+    color:white;
+}
+input{
+    width:200px;
+}
+textarea{
+    width:200px;
+}
+button{
+    border: none;
+    width:80px;
+   border-radius: 5px;
+   width:80px;
+   height:25px;
+  color:rgb(52, 120, 175);
+  margin-left:155px;
+   
+}
+
+
+@media screen and (max-width:500px){
+    .navbar_section{
+        width:40%;
+        height:380px;
+        background-color:rgb(52, 120, 175);;
+      
+    }
+    .logo img{
+        margin-bottom: 260px;
+        display: block;
+
+    }
+    
+    .nav_links{
+        display: block;
+        display:flex;
+        flex-wrap:wrap;
+        height:300px;
+        overflow: hidden;
+    }
+    .contact{
+        width:20%;
+        height:500px;
+        background-color: #3478af;
+        margin:0 auto;
+        border-radius: 5px;
+        overflow: hidden;
+       
+    }
+    .inp{
+        width:80%;
+        display: flex;
+        flex-wrap:wrap;
+
+    }
+    .inp input{
+    width:80px;
+   
+    }
+    button{
+        border: none;
+        width:80px;
+       border-radius: 5px;
+       width:80px;
+       height:25px;
+      color:rgb(52, 120, 175);
+      display: block;
+      margin: 0 auto;
+      
+       
+    }
+}
